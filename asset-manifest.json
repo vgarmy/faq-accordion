@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/faq-accordion/static/css/main.f855e6bc.css",
-    "main.js": "/faq-accordion/static/js/main.fa908931.js",
-    "static/js/787.f2b2be52.chunk.js": "/faq-accordion/static/js/787.f2b2be52.chunk.js",
-    "static/media/logo.svg": "/faq-accordion/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/faq-accordion/static/css/main.b2f0460b.css",
+    "main.js": "/faq-accordion/static/js/main.5170c6a6.js",
+    "static/media/background-pattern-mobile.svg": "/faq-accordion/static/media/background-pattern-mobile.bbadbddabee663bba888.svg",
+    "static/media/background-pattern-desktop.svg": "/faq-accordion/static/media/background-pattern-desktop.621478cf83f8150af604.svg",
     "index.html": "/faq-accordion/index.html",
-    "main.f855e6bc.css.map": "/faq-accordion/static/css/main.f855e6bc.css.map",
-    "main.fa908931.js.map": "/faq-accordion/static/js/main.fa908931.js.map",
-    "787.f2b2be52.chunk.js.map": "/faq-accordion/static/js/787.f2b2be52.chunk.js.map"
+    "static/media/icon-star.svg": "/faq-accordion/static/media/icon-star.189fd38b8aefdc8fbe0d4008b1ff497e.svg",
+    "static/media/icon-plus.svg": "/faq-accordion/static/media/icon-plus.6c5381bcc9a768ea5c3683e11c6bfd6c.svg",
+    "static/media/icon-minus.svg": "/faq-accordion/static/media/icon-minus.5575b6de09a1e0deab1dd585ada35f31.svg",
+    "main.b2f0460b.css.map": "/faq-accordion/static/css/main.b2f0460b.css.map",
+    "main.5170c6a6.js.map": "/faq-accordion/static/js/main.5170c6a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.fa908931.js"
+    "static/css/main.b2f0460b.css",
+    "static/js/main.5170c6a6.js"
   ]
 }
