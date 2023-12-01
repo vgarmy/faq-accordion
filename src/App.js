@@ -1,9 +1,10 @@
 import './App.css';
+import Faq from './container/faq/Faq'
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="App" role="main">
+      <Faq />
     </div>
   );
 }
