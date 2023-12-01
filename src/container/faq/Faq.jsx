@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import './faq.css'
 import faqData from './data'
 import Star from '../../assets/images/icon-star.svg'
