@@ -16,6 +16,13 @@ const Faq = () => {
         setSelected(index)
     }
 
+    const handleKeyDown = (event, index) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault(); // Prevents the default action of the key
+            toggleQuestion(index);
+        }
+    }
+
     return (
         <div className='card_container'>
             <div className='card_container_headline'>
@@ -25,9 +32,14 @@ const Faq = () => {
             <div className='card_container_accordian'>
                 {faqData.map((item, index) => (
                     <div className='card_container_accordian_item' key={index}>
-                        <div className='card_container_accordian_question' onClick={() => toggleQuestion(index)}>
+                        <div className='card_container_accordian_question'
+                            onClick={() => toggleQuestion(index)}
+                            onKeyDown={(event) => handleKeyDown(event, index)}
+                            tabIndex={0}
+                            role="button"
+                            aria-expanded={selected === index} >
                             <h2>{item.question}</h2>
-                            <img src={selected === index ? Plus : Minus } alt="arrow" />
+                            <img src={selected === index ? Plus : Minus} alt="apen close questiony" />
                         </div>
                         <div className={selected === index ? 'card_container_accordian_answer show' : 'card_container_accordian_answer'}>
                             <p>{item.answer}</p>

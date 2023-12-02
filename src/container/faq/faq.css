@@ -50,10 +50,11 @@ h2{
     cursor: pointer;
 }
 
-.card_container_accordian_question:hover{
+.card_container_accordian_question:hover,
+.card_container_accordian_question:focus{
     color: var(--Grayish-purple);
+    outline:none;
 }
-
 
 .card_container_accordian_answer {
     max-height: 0;
